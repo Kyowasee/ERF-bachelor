@@ -1,0 +1,18 @@
+---
+title: "README-YOW"
+author: "Poekie Yowasee"
+date: "1/07/2021"
+output: pdf_document
+---
+
+## Expert rule-fit
+## Complementing Rule Ensembles with Expert Knowledge - extenstion of Luisa Ebner's work 
+The differences of thefiles between Ebner and Yowasee will be explained here. 
+
+- For the detailed explanation of ERF implementation consult Ebner's README. 
+- Rules of Yowasee can be found in the map expert knowledge under the name fdk_rules9 
+- The data can be found under the map data sets, which includes four different data sets, namely diabetes (Pima Indiana Diabetes set);  diabetes-4 (German Diabetes set); combined-1 (the csv's files aforementioned combined without shuffling); combined-2 (the csv's files aforementioned combined with shuffling);
+- The results of Yowasee can be found in the map results. In addition these files corresponds to the rules and data of Yowasee: diabetes_results_diabetes.R; diabetes_results_diabetes4.R; diabetes_results_combi1.R
+- With regard to the plots of Yowasee, it can be found in the map plots-> Yowasee diabetes 
+
+To be noted, the big differences lies in the implementation of the rules and data, the whole Rule-fit and Expert rule-fit implementation was not changed. 
